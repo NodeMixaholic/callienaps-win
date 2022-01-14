@@ -1,40 +1,4 @@
-﻿  pch.cpp
-  lapi.c
-  lauxlib.c
-  lbaselib.c
-  lcode.c
-  ldblib.c
-  ldebug.c
-  ldo.c
-  ldump.c
-  lfunc.c
-  lgc.c
-C:\Users\stitc\source\repos\callienaps-win\Lua\lgc.c(288,56): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
-  linit.c
-  liolib.c
-  llex.c
-  lmathlib.c
-  lmem.c
-  loadlib.c
-  lobject.c
-  lopcodes.c
-  loslib.c
-  lparser.c
-  Generating Code...
-  Compiling...
-  lstate.c
-  lstring.c
-  lstrlib.c
-  ltable.c
-C:\Users\stitc\source\repos\callienaps-win\Lua\ltable.c(323,5): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
-C:\Users\stitc\source\repos\callienaps-win\Lua\ltable.c(376,5): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
-  ltablib.c
-  ltm.c
-  lundump.c
-  lvm.c
-  lzio.c
-  Generating Code...
-  dllmain.cpp
+﻿  dllmain.cpp
 C:\Users\stitc\source\repos\callienaps-win\proto.h(34,1): warning C4005: 'LUA_TNONE': macro redefinition
 C:\Users\stitc\source\repos\callienaps-win\Lua\lua.h(72): message : see previous definition of 'LUA_TNONE'
 C:\Users\stitc\source\repos\callienaps-win\proto.h(36,1): warning C4005: 'LUA_TLIGHTUSERDATA': macro redefinition

@@ -57,7 +57,10 @@ int luaopen_fakeclosure(lua_State* L) {
     //Restore();
     return 0;
 }
-
+int api_runScript(char* code) {
+    luaL_dostring(L, code);
+    return 0;
+}
 int main() {
     printf("bypassing...");
     Bypass();
@@ -72,6 +75,6 @@ int main() {
     luaL_dofile(L, "customluafunc.lua");
     luaL_dofile(L, "gui.lua");
     printf("restoring from bypass...");
-    //Restore();
+    Restore();
 }
 
