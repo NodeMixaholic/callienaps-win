@@ -54,7 +54,7 @@ int luaopen_loadstr(lua_State* L) {
 int luaopen_fakeclosure(lua_State* L) {
     Bypass();
     lua_register(L, "fakeLClosure", fakeLClosureFunc);
-    Restore();
+    //Restore();
     return 0;
 }
 
@@ -72,6 +72,6 @@ int main() {
     luaL_dofile(L, "customluafunc.lua");
     luaL_dofile(L, "gui.lua");
     printf("restoring from bypass...");
-    Restore();
+    //Restore();
 }
 
